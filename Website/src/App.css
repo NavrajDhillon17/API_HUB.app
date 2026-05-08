@@ -30,7 +30,7 @@
 }
 
 .glass-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   box-shadow: 0 16px 40px rgba(255, 150, 180, 0.25);
 }
 
@@ -171,5 +171,5 @@
 }
 
 .glass-card, .weather-card, .welcome-card {
-  animation: fadeInUp 0.5s ease both;
+  animation: fadeInUp 0.5s ease backwards;
 }

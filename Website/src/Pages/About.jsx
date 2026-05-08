@@ -16,13 +16,7 @@ export default function About() {
             We believe developer tools should be fast, and fun to use.
             API Hub brings powerful real-world APIs together under one smooth roof.
           </p>
-        </div>
-      </div>
-
-      {/* ── MISSION & OFFER ──────────────────────────── */}
-      <div className="cute-bg py-5">
-        <div className="container py-4">
-          <div className="row g-4 align-items-stretch justify-content-center">
+          <div className="row g-4 align-items-stretch my-5 gap-4 justify-content-center">
             <div className="col-md-5">
               <div className="glass-card p-5 h-100 shadow-sm border-0">
                 <div className="mb-3" style={{ fontSize: '2.5rem' }}>🎯</div>
@@ -52,7 +46,7 @@ export default function About() {
       </div>
 
       {/* ── VALUES ───────────────────────────────────── */}
-      <div className="cute-bg-alt py-5">
+      <div className="cute-bg py-5">
         <div className="container py-4">
           <h2 className="text-center fw-bold mb-2" style={{ color: '#333', fontSize: '2.2rem' }}>💖 Our Values</h2>
           <p className="text-center mb-5 fw-semibold" style={{ color: '#666' }}>What drives everything we build</p>
@@ -73,11 +67,6 @@ export default function About() {
             ))}
           </div>
         </div>
-      </div>
-
-
-      {/* ── STATS ────────────────────────────────────── */}
-      <div className="cute-bg py-5">
         <div className="container py-4">
           <h2 className="text-center fw-bold mb-2" style={{ color: '#333', fontSize: '2.2rem' }}>📈 Our Impact</h2>
           <p className="text-center mb-5 fw-semibold" style={{ color: '#666' }}>Numbers that speak for themselves</p>
